@@ -4,7 +4,7 @@
 - [x] About Component
 - [x] Services Component
 - [x] Portfolio Component
-- [ ] Contact Component
-- [ ] Blog Component
-- [ ] Blog Details Component
+- [x] Contact Component
+- [x] Blog Component
+- [x] Blog Details Component
 
