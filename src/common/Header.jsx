@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/About";
+import Service from "../components/Service";
 
 class Header extends Component {
   render() {
@@ -35,7 +36,7 @@ class Header extends Component {
                                 <Link to="/about">About</Link>
                               </li>
                               <li>
-                                <a href="services.html">Services</a>
+                                <Link to="/service">Service</Link>
                               </li>
                               <li>
                                 <a href="portfolio.html">Portfolio</a>
@@ -84,6 +85,7 @@ class Header extends Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
         </Routes>
       </Router>
     );
