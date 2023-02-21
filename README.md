@@ -3,7 +3,7 @@
 - [x] Home Component
 - [x] About Component
 - [x] Services Component
-- [ ] Portfolio Component
+- [x] Portfolio Component
 - [ ] Contact Component
 - [ ] Blog Component
 - [ ] Blog Details Component
