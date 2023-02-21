@@ -1,7 +1,7 @@
 # List of task
 - [x] Setup React Router
 - [x] Home Component
-- [ ] About Component
+- [x] About Component
 - [ ] Services Component
 - [ ] Portfolio Component
 - [ ] Contact Component
