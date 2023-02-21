@@ -2,7 +2,7 @@
 - [x] Setup React Router
 - [x] Home Component
 - [x] About Component
-- [ ] Services Component
+- [x] Services Component
 - [ ] Portfolio Component
 - [ ] Contact Component
 - [ ] Blog Component
