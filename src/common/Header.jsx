@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "../components/Home";
+import About from "../components/About";
 
 class Header extends Component {
   render() {
@@ -15,7 +16,10 @@ class Header extends Component {
                     <div class="col-xl-2 col-lg-2 col-md-1">
                       <div class="logo">
                         <a href="index.html">
-                          <img src="assets/img/logo/logo.png" alt="" />
+                          <Link to="/">
+                            {" "}
+                            <img src="assets/img/logo/logo.png" alt="" />
+                          </Link>
                         </a>
                       </div>
                     </div>
@@ -25,10 +29,10 @@ class Header extends Component {
                           <nav>
                             <ul id="navigation">
                               <li>
-                                <a href="index.html">Home</a>
+                                <Link to="/">Home</Link>
                               </li>
                               <li>
-                                <a href="about.html">About</a>
+                                <Link to="/about">About</Link>
                               </li>
                               <li>
                                 <a href="services.html">Services</a>
@@ -79,6 +83,7 @@ class Header extends Component {
         </>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     );
