@@ -5,6 +5,7 @@ import About from "../components/About";
 import Service from "../components/Service";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
+import Blog from "../components/Blog";
 
 class Header extends Component {
   render() {
@@ -47,7 +48,7 @@ class Header extends Component {
                                 <a href="#">Page</a>
                                 <ul class="submenu">
                                   <li>
-                                    <a href="blog.html">Blog</a>
+                                    <Link to="/blog">Blog</Link>
                                   </li>
                                   <li>
                                     <a href="blog_details.html">Blog Details</a>
@@ -90,6 +91,7 @@ class Header extends Component {
           <Route path="/service" element={<Service />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>
     );
